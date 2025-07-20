@@ -1,0 +1,21 @@
+services:
+  db:
+    image: postgres:latest
+    container_name: my_db_compose
+    ports:
+      - "55432:5432"
+    environment:
+      - POSTGRES_DB=bannarak
+      - POSTGRES_USER=bannarak
+      - POSTGRES_PASSWORD=bannarak
+  web:
+    image: prawee/strapi:latest
+    container_name: my_app_compose
+    ports:
+      - "8080:1337"
+    environment:
+      - DATABASE_HOST=10.10.11.45
+      - DATABASE_PORT=55432
+      - DATABASE_NAME=bannarak
+      - DATABASE_USERNAME=bannarak
+      - DATABASE_PASSWORD=bannarak      
