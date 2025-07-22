@@ -8,7 +8,7 @@ services:
       - POSTGRES_DB=bannarak
       - POSTGRES_USER=bannarak
       - POSTGRES_PASSWORD=bannarak
-  web:
+  app:
     image: prawee/strapi:latest
     container_name: my_app_compose
     ports:
