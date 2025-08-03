@@ -1,0 +1,23 @@
+{
+  "name": "rmutp_0001",
+  "version": "1.0.0",
+  "description": "Bannarak Bannasan (Palmy)",
+  "homepage": "https://github.com/bannarakb/rmutp_0001#readme",
+  "bugs": {
+    "url": "https://github.com/bannarakb/rmutp_0001/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bannarakb/rmutp_0001.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "prisma": "^6.13.0"
+  }
+}
