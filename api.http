@@ -42,5 +42,5 @@ Content-Type: application/json
 Authorization: Bearer {{token}}
 
 {
-    "username": "{{username}}001"
+    "username": "{{username}}xyz"
 }
